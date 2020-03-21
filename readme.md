@@ -6,6 +6,12 @@ Particle makes easy build a structure and responsivity of webpages. You can focu
 
 ## Quick start
 
+### Install with NPM
+
+```npm i @ionited/particle```
+
+---
+
 ### Basic HTML
 
 ```
