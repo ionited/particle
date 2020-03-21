@@ -10,7 +10,9 @@ Choose your favorite option below:
 
 ### Install with NPM
 
-```npm i @ionited/particle```
+```
+npm i @ionited/particle
+```
 
 ### Download
 
@@ -24,7 +26,7 @@ Choose your favorite option below:
 
 ### Basic HTML
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
