@@ -10,6 +10,14 @@ Particle makes easy build a structure and responsivity of webpages. You can focu
 
 ```npm i @ionited/particle```
 
+### Download
+
+[particle.css](dist/particle.css) or [particlemin.css](dist/particle.min.css)
+
+### Get from UNPKG
+
+[https://unpkg.com/@ionited/particle@0.1.0/dist/particle.min.css](https://unpkg.com/@ionited/particle@0.1.0/dist/particle.min.css)
+
 ---
 
 ### Basic HTML
