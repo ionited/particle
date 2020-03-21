@@ -1,0 +1,24 @@
+$breakpoints: (
+    all: (
+        alias: null,
+        min: 0
+    ),
+    small: (
+        alias: 's',
+        min: 480px
+    ),
+    medium: (
+        alias: 'm',
+        min: 768px
+    ),
+    large: (
+        alias: 'l',
+        min: 1024px
+    ),
+    very-large: (
+        alias: 'vl',
+        min: 1200px
+    )
+);
+$columns: 12;
+$spacing: 0.5em;

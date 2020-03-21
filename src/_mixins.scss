@@ -1,0 +1,18 @@
+@mixin media-query($breakpoint) {
+    @if $breakpoint == 0 {
+        @content;
+    } @else {
+        @media (min-width: $breakpoint) {
+            @content;
+        }
+    }
+}
+
+@mixin selector($attr, $spec, $spec1, $includeZero: true) {
+    $spec: if($spec, '-' + $spec, '');
+    $spec1: if($includeZero or $spec1 != 0, '-' + $spec1, '');
+
+    .#{$attr}#{$spec}#{$spec1} {
+        @content;
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "particle",
+  "version": "0.1.0",
+  "description": "A lightweight CSS framework for creation of pages structrure",
+  "main": "./src/particle.scss",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "node ./scripts/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ionited/particle.git"
+  },
+  "keywords": [
+    "CSS",
+    "HTML",
+    "lightweight",
+    "Particle",
+    "structure"
+  ],
+  "author": "Ion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ionited/particle/issues"
+  },
+  "homepage": "https://github.com/ionited/particle#readme"
+}

@@ -1,0 +1,79 @@
+@use './variables';
+
+$utils: (
+    display: (
+        alias: 'd',
+        values: (block, flex, grid, inherit, inline, inline-block, inline-flex, 
+        inline-grid, inline-table, list-item, none, run-in, table, table-cell, 
+        table-column, table-column-group, table-footer-group, table-header-group,
+        table-row, table-row-group)
+    ),
+    float: (
+        alias: 'float',
+        values: (inherit, initial, inline-start, inline-end, left, none, right, unset)
+    ),
+    margin: (
+        alias: 'm',
+        values: 5
+    ),
+    margin-bottom: (
+        alias: 'mb',
+        values: 5
+    ),
+    margin-left: (
+        alias: 'ml',
+        values: 5
+    ),
+    margin-right: (
+        alias: 'mr',
+        values: 5
+    ),
+    margin-top: (
+        alias: 'mt',
+        values: 5
+    ),
+    padding: (
+        alias: 'p',
+        values: 5
+    ),
+    padding-bottom: (
+        alias: 'pb',
+        values: 5
+    ),
+    padding-left: (
+        alias: 'pl',
+        values: 5
+    ),
+    padding-right: (
+        alias: 'pr',
+        values: 5
+    ),
+    padding-top: (
+        alias: 'pt',
+        values: 5
+    ),
+    text-align: (
+        alias: 'algn',
+        values: (center, end, inherit, initial, justify, justify-all, left, right,
+        start, unset)
+    )
+);
+
+@each $property, $values in $utils {
+    $alias: map-get($values, alias);
+    $values: map-get($values, values);
+
+    @if type-of($values) == number {
+        @for $i from 0 through $values {
+            .#{$alias}-#{$i} {
+                #{$property}: variables.$spacing * $i;
+            }
+        }
+    } @else {
+        @each $v in $values {
+            .#{$alias}-#{$v} {
+                #{$property}: $v;
+            }
+        }
+    }
+}
