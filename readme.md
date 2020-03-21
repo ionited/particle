@@ -35,3 +35,7 @@ Particle makes easy build a structure and responsivity of webpages. You can focu
 </body>
 </html>
 ```
+
+## License
+
+Copyright (c) 2020 Ion. Licensed under [Mit License](LICENSE).
