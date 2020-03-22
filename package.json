@@ -1,6 +1,6 @@
 {
   "name": "@ionited/particle",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A lightweight CSS framework for creation of pages structrure",
   "main": "./src/particle.scss",
   "directories": {
