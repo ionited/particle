@@ -1,5 +1,9 @@
 # Particle
 
+<div align="center">
+    <img src="docs/imgs/logo.svg" alt="Particle logo" title="Particle logo">
+</div>
+
 > A lightweight CSS framework for creation of pages structrure
 
 Particle makes easy build a structure and responsivity of webpages. You can focus in your UI.
