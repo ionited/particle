@@ -1,7 +1,7 @@
 # Particle
 
 <div align="center">
-    <img src="docs/imgs/logo.svg" alt="Particle logo" title="Particle logo">
+    <img src="docs/imgs/logo.png" alt="Particle logo" title="Particle logo">
 </div>
 
 > A lightweight CSS framework for creation of pages structrure
