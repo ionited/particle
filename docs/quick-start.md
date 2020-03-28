@@ -1,34 +1,24 @@
-# Particle
-
-<div align="center">
-    <img src="docs/imgs/logo.png" alt="Particle logo" title="Particle logo">
-</div>
-
-> A lightweight CSS framework for creation of pages structrure
-
-Particle makes easy build a structure and responsivity of webpages. You can focus in your UI.
-
-## Quick start
+# Quick start
 
 Choose your favorite option below:
 
-### Install with NPM
+## Install with NPM
 
 ```
 npm i @ionited/particle
 ```
 
-### Download
+## Download
 
 [particle.css](dist/particle.css) or [particlemin.css](dist/particle.min.css)
 
-### Get from UNPKG
+## Get from UNPKG
 
 [https://unpkg.com/@ionited/particle@0.1.0/dist/particle.min.css](https://unpkg.com/@ionited/particle@0.1.0/dist/particle.min.css)
 
 ---
 
-### Basic HTML
+## Basic HTML
 
 ```html
 <!DOCTYPE html>
@@ -47,14 +37,6 @@ npm i @ionited/particle
 </html>
 ```
 
-## Documentation
+---
 
-- [Index](docs/README.md)
-- [Quick start](docs/quick-start.md)
-- [Basics](docs/basics.md)
-- [Grid](docs/grid.md)
-- [Utils](docs/utils.md)
-
-## License
-
-Copyright (c) 2020 Ion. Licensed under [Mit License](LICENSE).
+### [Basics >](basics.md)
