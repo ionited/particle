@@ -24,7 +24,7 @@ npm i @ionited/particle
 
 ### Get from UNPKG
 
-[https://unpkg.com/@ionited/particle@0.1.0/dist/particle.min.css](https://unpkg.com/@ionited/particle@0.1.0/dist/particle.min.css)
+[https://unpkg.com/@ionited/particle@latest/dist/particle.min.css](https://unpkg.com/@ionited/particle@latest/dist/particle.min.css)
 
 ---
 
@@ -39,7 +39,7 @@ npm i @ionited/particle
 
     <title>Document</title>
     
-    <link href="https://unpkg.com/@ionited/particle@0.1.0/dist/particle.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/@ionited/particle@latest/dist/particle.min.css" rel="stylesheet">
 </head>
 <body>
     
