@@ -340,6 +340,102 @@ body {
     max-width: 100%;
   }
 }
+.algn-content-baseline {
+  align-content: baseline;
+}
+
+.algn-content-center {
+  align-content: center;
+}
+
+.algn-content-end {
+  align-content: end;
+}
+
+.algn-content-flex-end {
+  align-content: flex-end;
+}
+
+.algn-content-flex-start {
+  align-content: flex-start;
+}
+
+.algn-content-inherit {
+  align-content: inherit;
+}
+
+.algn-content-initial {
+  align-content: initial;
+}
+
+.algn-content-normal {
+  align-content: normal;
+}
+
+.algn-content-space-around {
+  align-content: space-around;
+}
+
+.algn-content-space-evenly {
+  align-content: space-evenly;
+}
+
+.algn-content-space-between {
+  align-content: space-between;
+}
+
+.algn-content-start {
+  align-content: start;
+}
+
+.algn-content-stretch {
+  align-content: stretch;
+}
+
+.algn-content-unset {
+  align-content: unset;
+}
+
+.algn-items-baseline {
+  align-items: baseline;
+}
+
+.algn-items-center {
+  align-items: center;
+}
+
+.algn-items-end {
+  align-items: end;
+}
+
+.algn-items-flex-end {
+  align-items: flex-end;
+}
+
+.algn-items-flex-start {
+  align-items: flex-start;
+}
+
+.algn-items-inherit {
+  align-items: inherit;
+}
+
+.algn-items-initial {
+  align-items: initial;
+}
+
+.algn-items-normal {
+  align-items: normal;
+}
+
+.algn-items-start {
+  align-items: start;
+}
+
+.algn-items-stretch {
+  align-items: stretch;
+}
+
 .d-block {
   display: block;
 }
@@ -420,6 +516,34 @@ body {
   display: table-row-group;
 }
 
+.flex-inherit {
+  flex-direction: inherit;
+}
+
+.flex-initial {
+  flex-direction: initial;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-column-reverse {
+  flex-direction: column-reverse;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.flex-unset {
+  flex-direction: unset;
+}
+
 .float-inherit {
   float: inherit;
 }
@@ -450,6 +574,126 @@ body {
 
 .float-unset {
   float: unset;
+}
+
+.just-content-center {
+  justify-content: center;
+}
+
+.just-content-end {
+  justify-content: end;
+}
+
+.just-content-flex-end {
+  justify-content: flex-end;
+}
+
+.just-content-flex-start {
+  justify-content: flex-start;
+}
+
+.just-content-inherit {
+  justify-content: inherit;
+}
+
+.just-content-initial {
+  justify-content: initial;
+}
+
+.just-content-left {
+  justify-content: left;
+}
+
+.just-content-normal {
+  justify-content: normal;
+}
+
+.just-content-right {
+  justify-content: right;
+}
+
+.just-content-space-around {
+  justify-content: space-around;
+}
+
+.just-content-space-evenly {
+  justify-content: space-evenly;
+}
+
+.just-content-space-between {
+  justify-content: space-between;
+}
+
+.just-content-start {
+  justify-content: start;
+}
+
+.just-content-stretch {
+  justify-content: stretch;
+}
+
+.just-items-auto {
+  justify-items: auto;
+}
+
+.just-items-baseline {
+  justify-items: baseline;
+}
+
+.just-items-center {
+  justify-items: center;
+}
+
+.just-items-end {
+  justify-items: end;
+}
+
+.just-items-flex-end {
+  justify-items: flex-end;
+}
+
+.just-items-flex-start {
+  justify-items: flex-start;
+}
+
+.just-items-inherit {
+  justify-items: inherit;
+}
+
+.just-items-initial {
+  justify-items: initial;
+}
+
+.just-items-left {
+  justify-items: left;
+}
+
+.just-items-normal {
+  justify-items: normal;
+}
+
+.just-items-right {
+  justify-items: right;
+}
+
+.just-items-self-end {
+  justify-items: self-end;
+}
+
+.just-items-self-start {
+  justify-items: self-start;
+}
+
+.just-items-start {
+  justify-items: start;
+}
+
+.just-items-stretch {
+  justify-items: stretch;
+}
+
+.just-items-unset {
+  justify-items: unset;
 }
 
 .m-0 {
@@ -730,6 +974,50 @@ body {
 
 .algn-unset {
   text-align: unset;
+}
+
+.v-algn-baseline {
+  vertical-align: baseline;
+}
+
+.v-algn-bottom {
+  vertical-align: bottom;
+}
+
+.v-algn-inherit {
+  vertical-align: inherit;
+}
+
+.v-algn-initial {
+  vertical-align: initial;
+}
+
+.v-algn-middle {
+  vertical-align: middle;
+}
+
+.v-algn-sub {
+  vertical-align: sub;
+}
+
+.v-algn-super {
+  vertical-align: super;
+}
+
+.v-algn-text-top {
+  vertical-align: text-top;
+}
+
+.v-algn-text-bottom {
+  vertical-align: text-bottom;
+}
+
+.v-algn-top {
+  vertical-align: top;
+}
+
+.v-algn-unset {
+  vertical-align: unset;
 }
 
 /*# sourceMappingURL=particle.css.map */
