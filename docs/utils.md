@@ -114,61 +114,61 @@ This is a set of very used styles.
 
 ## Margin
 
-`m-{size}`, where size is 1-5.
+`m-{size}`, size is 0-5.
 
 Size is multiplied by 0.5em.
 
 ## Margin bottom
 
-`mb-{size}`, where size is 1-5.
+`mb-{size}`, size is 0-5.
 
 Size is multiplied by 0.5em.
 
 ## Margin left
 
-`ml-{size}`, where size is 1-5.
+`ml-{size}`, size is 0-5.
 
 Size is multiplied by 0.5em.
 
 ## Margin right
 
-`mr-{size}`, where size is 1-5.
+`mr-{size}`, size is 0-5.
 
 Size is multiplied by 0.5em.
 
 ## Margin top
 
-`mt-{size}`, where size is 1-5.
+`mt-{size}`, size is 0-5.
 
 Size is multiplied by 0.5em.
 
 ## Padding
 
-`p-{size}`, where size is 1-5.
+`p-{size}`, size is 0-5.
 
 Size is multiplied by 0.5em.
 
 ## Padding bottom
 
-`pb-{size}`, where size is 1-5.
+`pb-{size}`, size is 0-5.
 
 Size is multiplied by 0.5em.
 
 ## Padding left
 
-`pl-{size}`, where size is 1-5.
+`pl-{size}`, size is 0-5.
 
 Size is multiplied by 0.5em.
 
 ## Padding right
 
-`pr-{size}`, where size is 1-5.
+`pr-{size}`, size is 0-5.
 
 Size is multiplied by 0.5em.
 
 ## Padding top
 
-`pt-{size}`, where size is 1-5.
+`pt-{size}`, size is 0-5.
 
 Size is multiplied by 0.5em.
 
