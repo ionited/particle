@@ -1,4 +1,25 @@
+@use './mixins';
+@use './variables';
+
+$rootSpacing: 16px;
+$containerBreakpoint: map-get(map-get(variables.$breakpoints, large), min);
+
 body {
-    font-size: 16px;
+    font-size: $rootSpacing;
     margin: 0;
+}
+
+.banner {
+    height: 100vh;
+}
+
+.container {
+    padding: variables.$spacing;
+}
+
+@include mixins.media-query($containerBreakpoint) {
+    .container {
+        margin: auto;
+        width: $containerBreakpoint - $rootSpacing;
+    }
 }

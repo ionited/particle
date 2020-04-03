@@ -3,6 +3,20 @@ body {
   margin: 0;
 }
 
+.banner {
+  height: 100vh;
+}
+
+.container {
+  padding: 0.5em;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    margin: auto;
+    width: 1008px;
+  }
+}
 .grid {
   display: flex;
   flex-wrap: wrap;
