@@ -1,6 +1,6 @@
 # Particle
 
-<div align="center">
+<div style="text-align: center;">
     <img src="docs/imgs/logo.png" alt="Particle logo" title="Particle logo">
 </div>
 
