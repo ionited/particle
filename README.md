@@ -1,8 +1,8 @@
 # Particle
 
-<div style="text-align: center;">
+<p align="center">
     <img src="docs/imgs/logo.png" alt="Particle logo" title="Particle logo">
-</div>
+</p>
 
 > A lightweight CSS framework for creation of pages structrure
 
