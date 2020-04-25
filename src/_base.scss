@@ -1,3 +1,4 @@
+@use 'sass:color';
 @use './mixins';
 @use './variables';
 
@@ -8,6 +9,31 @@ body {
     font-family: sans-serif;
     font-size: $rootSpacing;
     margin: 0;
+}
+
+a {
+    color: color.adjust(variables.$color, $lightness: -40%);
+    font-weight: bold;
+    outline: none;
+
+    &:focus, &:hover {
+        color: color.adjust(variables.$color, $lightness: -45%);
+    }
+
+    &:visited {
+        color: color.adjust(variables.$color, $lightness: -50%);
+    }
+}
+
+dl, ol, ul {
+    padding: 0 variables.$spacing * 3;
+    margin: variables.$spacing 0;
+}
+
+dl {
+    dd {
+        margin: 0 0 0 variables.$spacing * 2;
+    }
 }
 
 input, select {
@@ -23,7 +49,7 @@ input, select {
     width: 100%;
 
     &:focus {
-        box-shadow: 0 0 0 1px #73E8E4;
+        box-shadow: 0 0 0 1px variables.$color;
     }
 }
 
@@ -43,7 +69,7 @@ button {
     padding: 0 variables.$spacing * 4;
 
     &:focus {
-        box-shadow: 0 0 0 1px #73E8E4;
+        box-shadow: 0 0 0 1px variables.$color;
     }
 
     &:hover {

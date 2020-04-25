@@ -4,6 +4,27 @@ body {
   margin: 0;
 }
 
+a {
+  color: #147b77;
+  font-weight: bold;
+  outline: none;
+}
+a:focus, a:hover {
+  color: #116562;
+}
+a:visited {
+  color: #0d4f4d;
+}
+
+dl, ol, ul {
+  padding: 0 1.5em;
+  margin: 0.5em 0;
+}
+
+dl dd {
+  margin: 0 0 0 1em;
+}
+
 input, select {
   background-color: #FFFFFF;
   border: 1px solid rgba(0, 0, 0, 0.12);
