@@ -20,7 +20,7 @@ npm i @ionited/particle
 
 ### Download
 
-[particle.css](dist/particle.css) or [particlemin.css](dist/particle.min.css)
+[particle.css](dist/particle.css) or [particle.min.css](dist/particle.min.css)
 
 ### Get from UNPKG
 
