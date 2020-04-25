@@ -25,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/ionited/particle/issues"
   },
-  "homepage": "https://github.com/ionited/particle#readme"
+  "homepage": "https://github.com/ionited/particle#readme",
+  "funding": {
+    "type" : "patreon",
+    "url" : "https://www.patreon.com/gabrielcursino"
+  }
 }
