@@ -1,0 +1,35 @@
+@use '../mixins';
+
+$utils: (
+    align-content: (
+        alias: 'algn-content',
+        values: (baseline, center, end, flex-end, flex-start, inherit, initial,
+        normal, space-around, space-evenly, space-between, start, stretch, unset)
+    ),
+    align-items: (
+        alias: 'algn-items',
+        values: (baseline, center, end, flex-end, flex-start, inherit, initial,
+        normal, start, stretch)
+    ),
+    flex-direction: (
+        alias: 'flex',
+        values: (inherit, initial, column, column-reverse, row, row-reverse, unset)
+    ),
+    justify-content: (
+        alias: 'just-content',
+        values: (center, end, flex-end, flex-start, inherit, initial, left, normal,
+        right, space-around, space-evenly, space-between, start, stretch)
+    ),
+    justify-items: (
+        alias: 'just-items',
+        values: (auto, baseline, center, end, flex-end, flex-start, inherit, initial,
+        left, normal, right, self-end, self-start, start, stretch, unset)
+    )
+);
+
+@each $property, $values in $utils {
+    $alias: map-get($values, alias);
+    $values: map-get($values, values);
+
+    @include mixins.util-generator($property, $alias, $values);
+}

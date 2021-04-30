@@ -1,0 +1,45 @@
+.v-algn-baseline {
+  vertical-align: baseline;
+}
+
+.v-algn-bottom {
+  vertical-align: bottom;
+}
+
+.v-algn-inherit {
+  vertical-align: inherit;
+}
+
+.v-algn-initial {
+  vertical-align: initial;
+}
+
+.v-algn-middle {
+  vertical-align: middle;
+}
+
+.v-algn-sub {
+  vertical-align: sub;
+}
+
+.v-algn-super {
+  vertical-align: super;
+}
+
+.v-algn-text-top {
+  vertical-align: text-top;
+}
+
+.v-algn-text-bottom {
+  vertical-align: text-bottom;
+}
+
+.v-algn-top {
+  vertical-align: top;
+}
+
+.v-algn-unset {
+  vertical-align: unset;
+}
+
+/*# sourceMappingURL=vertical-align.css.map */

@@ -1,0 +1,16 @@
+@use '../mixins';
+
+$values: (
+    center,
+    end,
+    inherit,
+    initial,
+    justify,
+    justify-all,
+    left,
+    right,
+    start,
+    unset
+);
+
+@include mixins.util-generator('text-align', 'algn', $values);

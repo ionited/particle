@@ -1,6 +1,6 @@
 @use 'sass:color';
-@use './mixins';
-@use './variables';
+@use 'mixins';
+@use 'variables';
 
 $rootSpacing: 16px;
 $containerBreakpoint: map-get(map-get(variables.$breakpoints, large), min);

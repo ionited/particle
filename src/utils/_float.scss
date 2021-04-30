@@ -1,0 +1,14 @@
+@use '../mixins';
+
+$values: (
+    inherit,
+    initial,
+    inline-start,
+    inline-end,
+    left,
+    none,
+    right,
+    unset
+);
+
+@include mixins.util-generator('float', 'float', $values);

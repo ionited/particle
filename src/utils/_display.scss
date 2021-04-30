@@ -1,0 +1,26 @@
+@use '../mixins';
+
+$values: (
+    block,
+    flex,
+    grid,
+    inherit,
+    inline,
+    inline-block,
+    inline-flex, 
+    inline-grid,
+    inline-table,
+    list-item,
+    none,
+    run-in,
+    table,
+    table-cell,
+    table-column,
+    table-column-group,
+    table-footer-group,
+    table-header-group,
+    table-row,
+    table-row-group
+);
+
+@include mixins.util-generator('display', 'd', $values);

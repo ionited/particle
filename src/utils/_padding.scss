@@ -1,0 +1,31 @@
+@use '../mixins';
+
+$utils: (
+    padding: (
+        alias: 'p',
+        values: 5
+    ),
+    padding-bottom: (
+        alias: 'pb',
+        values: 5
+    ),
+    padding-left: (
+        alias: 'pl',
+        values: 5
+    ),
+    padding-right: (
+        alias: 'pr',
+        values: 5
+    ),
+    padding-top: (
+        alias: 'pt',
+        values: 5
+    )
+);
+
+@each $property, $values in $utils {
+    $alias: map-get($values, alias);
+    $values: map-get($values, values);
+
+    @include mixins.util-generator($property, $alias, $values);
+}

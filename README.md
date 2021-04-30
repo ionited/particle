@@ -22,6 +22,8 @@ npm i @ionited/particle
 
 [particle.css](dist/particle.css) or [particle.min.css](dist/particle.min.css)
 
+Or import only your needed modules.
+
 ### Get from UNPKG
 
 [https://unpkg.com/@ionited/particle@latest/dist/particle.min.css](https://unpkg.com/@ionited/particle@latest/dist/particle.min.css)

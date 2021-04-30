@@ -12,7 +12,6 @@ Particle has 4 breakpoints: Small, medium, large and very large:
 | Medium     | m     | 768px    |
 | Large      | l     | 1024px   |
 | Very large | vl    | 1200px   |
-|            |       |          |
 
 ## Banner
 
