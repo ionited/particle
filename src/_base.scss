@@ -5,6 +5,10 @@
 $rootSpacing: 16px;
 $containerBreakpoint: map-get(map-get(variables.$breakpoints, large), min);
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: sans-serif;
     font-size: $rootSpacing;
