@@ -1,11 +1,3 @@
-.float-inherit {
-  float: inherit;
-}
-
-.float-initial {
-  float: initial;
-}
-
 .float-inline-start {
   float: inline-start;
 }
@@ -24,10 +16,6 @@
 
 .float-right {
   float: right;
-}
-
-.float-unset {
-  float: unset;
 }
 
 /*# sourceMappingURL=float.css.map */

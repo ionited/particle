@@ -6,14 +6,6 @@
   text-align: end;
 }
 
-.algn-inherit {
-  text-align: inherit;
-}
-
-.algn-initial {
-  text-align: initial;
-}
-
 .algn-justify {
   text-align: justify;
 }
@@ -32,10 +24,6 @@
 
 .algn-start {
   text-align: start;
-}
-
-.algn-unset {
-  text-align: unset;
 }
 
 /*# sourceMappingURL=text-align.css.map */

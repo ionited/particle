@@ -10,10 +10,6 @@
   display: grid;
 }
 
-.d-inherit {
-  display: inherit;
-}
-
 .d-inline {
   display: inline;
 }

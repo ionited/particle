@@ -3,14 +3,11 @@
 $values: (
     center,
     end,
-    inherit,
-    initial,
     justify,
     justify-all,
     left,
     right,
-    start,
-    unset
+    start
 );
 
 @include mixins.util-generator('text-align', 'algn', $values);

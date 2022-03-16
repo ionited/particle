@@ -3,15 +3,12 @@
 $values: (
     baseline,
     bottom,
-    inherit,
-    initial,
     middle,
     sub,
     super,
     text-top,
     text-bottom,
-    top,
-    unset
+    top
 );
 
 @include mixins.util-generator('vertical-align', 'v-algn', $values);

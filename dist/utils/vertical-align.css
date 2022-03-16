@@ -6,14 +6,6 @@
   vertical-align: bottom;
 }
 
-.v-algn-inherit {
-  vertical-align: inherit;
-}
-
-.v-algn-initial {
-  vertical-align: initial;
-}
-
 .v-algn-middle {
   vertical-align: middle;
 }
@@ -36,10 +28,6 @@
 
 .v-algn-top {
   vertical-align: top;
-}
-
-.v-algn-unset {
-  vertical-align: unset;
 }
 
 /*# sourceMappingURL=vertical-align.css.map */

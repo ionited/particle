@@ -9,15 +9,11 @@ This is a set of very used styles.
 - `algn-content-end`
 - `algn-content-flex-end`
 - `algn-content-flex-start`
-- `algn-content-inherit`
-- `algn-content-initial`
-- `algn-content-normal`
 - `algn-content-space-around`
 - `algn-content-space-evenly`
 - `algn-content-space-between`
 - `algn-content-start`
 - `algn-content-stretch`
-- `algn-content-unset`
 
 ## Align items
 
@@ -26,9 +22,6 @@ This is a set of very used styles.
 - `algn-items-end`
 - `algn-items-flex-end`
 - `algn-items-flex-start`
-- `algn-items-inherit`
-- `algn-items-initial`
-- `algn-items-normal`
 - `algn-items-start`
 - `algn-items-stretch`
 
@@ -37,7 +30,6 @@ This is a set of very used styles.
 - `d-block`
 - `d-flex`
 - `d-grid`
-- `d-inherit`
 - `d-inline`
 - `d-inline-block`
 - `d-inline-flex`
@@ -57,24 +49,18 @@ This is a set of very used styles.
 
 ## Flex direction
 
-- `flex-inherit`
-- `flex-initial`
 - `flex-column`
 - `flex-column-reverse`
 - `flex-row`
 - `flex-row-reverse`
-- `flex-unset`
 
 ## Float
 
-- `float-inherit`
-- `float-initial`
 - `float-inline-start`
 - `float-inline-end`
 - `float-left`
 - `float-none`
 - `float-right`
-- `float-unset`
 
 ## Justify content
 
@@ -82,10 +68,7 @@ This is a set of very used styles.
 - `just-content-end`
 - `just-content-flex-end`
 - `just-content-flex-start`
-- `just-content-inherit`
-- `just-content-initial`
 - `just-content-left`
-- `just-content-normal`
 - `just-content-right`
 - `just-content-space-around`
 - `just-content-space-evenly`
@@ -101,16 +84,12 @@ This is a set of very used styles.
 - `just-items-end`
 - `just-items-flex-end`
 - `just-items-flex-start`
-- `just-items-inherit`
-- `just-items-initial`
 - `just-items-left`
-- `just-items-normal`
 - `just-items-right`
 - `just-items-self-end`
 - `just-items-self-start`
 - `just-items-start`
 - `just-items-stretch`
-- `just-items-unset`
 
 ## Margin
 
@@ -176,25 +155,19 @@ Size is multiplied by 0.5em.
 
 - `algn-center`
 - `algn-end`
-- `algn-inherit`
-- `algn-initial`
 - `algn-justify`
 - `algn-justify-all`
 - `algn-left`
 - `algn-right`
 - `algn-start`
-- `algn-unset`
 
 ## Vertical align
 
 - `v-algn-baseline`
 - `v-algn-bottom`
-- `v-algn-inherit`
-- `v-algn-initial`
 - `v-algn-middle`
 - `v-algn-sub`
 - `v-algn-super`
 - `v-algn-text-top`
 - `v-algn-text-bottom`
 - `v-algn-top`
-- `v-algn-unset`
