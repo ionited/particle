@@ -70,7 +70,10 @@ button {
     font-size: 1em;
     height: variables.$spacing * 5;
     outline: none;
+    overflow: hidden;
     padding: 0 variables.$spacing * 4;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 
     &:focus {
         box-shadow: 0 0 0 1px variables.$color;
