@@ -44,9 +44,7 @@ input, select, textarea {
     background-color: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.12);
     border-radius: variables.$borderRadius;
-    box-sizing: border-box;
     font-size: 1em;
-    height: variables.$spacing * 5;
     max-width: 100%;
     outline: none;
     padding: 0 variables.$spacing * 2;
@@ -55,6 +53,10 @@ input, select, textarea {
     &:focus {
         box-shadow: 0 0 0 1px variables.$color;
     }
+}
+
+input, select {
+    height: variables.$spacing * 5;
 }
 
 input {
