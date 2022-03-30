@@ -1,3 +1,10 @@
+## [0.4.2](https://github.com/ionited/particle/compare/0.4.1...0.4.2) (2022-03-30)
+
+### Bug Fixes
+
+* button text ([37e5a88](https://github.com/ionited/particle/commit/37e5a8869d0cc885d6643e7223b973d8e213d47e))
+* textarea styles ([5cf99ab](https://github.com/ionited/particle/commit/5cf99abe9aa9086cb09bb543e8ac06160773eae8))
+
 ## 0.4.1 (2022-03-16)
 
 ### Bug Fixes
