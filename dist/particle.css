@@ -33,9 +33,7 @@ input, select, textarea {
   background-color: #FFFFFF;
   border: 1px solid rgba(0, 0, 0, 0.12);
   border-radius: 0.25em;
-  box-sizing: border-box;
   font-size: 1em;
-  height: 2.5em;
   max-width: 100%;
   outline: none;
   padding: 0 1em;
@@ -43,6 +41,10 @@ input, select, textarea {
 }
 input:focus, select:focus, textarea:focus {
   box-shadow: 0 0 0 1px #73E8E4;
+}
+
+input, select {
+  height: 2.5em;
 }
 
 input[type=file] {
