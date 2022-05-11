@@ -1,33 +1,33 @@
 .v-algn-baseline {
-  vertical-align: baseline;
+  vertical-align: baseline !important;
 }
 
 .v-algn-bottom {
-  vertical-align: bottom;
+  vertical-align: bottom !important;
 }
 
 .v-algn-middle {
-  vertical-align: middle;
+  vertical-align: middle !important;
 }
 
 .v-algn-sub {
-  vertical-align: sub;
+  vertical-align: sub !important;
 }
 
 .v-algn-super {
-  vertical-align: super;
+  vertical-align: super !important;
 }
 
 .v-algn-text-top {
-  vertical-align: text-top;
+  vertical-align: text-top !important;
 }
 
 .v-algn-text-bottom {
-  vertical-align: text-bottom;
+  vertical-align: text-bottom !important;
 }
 
 .v-algn-top {
-  vertical-align: top;
+  vertical-align: top !important;
 }
 
 /*# sourceMappingURL=vertical-align.css.map */

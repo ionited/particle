@@ -1,29 +1,29 @@
 .algn-center {
-  text-align: center;
+  text-align: center !important;
 }
 
 .algn-end {
-  text-align: end;
+  text-align: end !important;
 }
 
 .algn-justify {
-  text-align: justify;
+  text-align: justify !important;
 }
 
 .algn-justify-all {
-  text-align: justify-all;
+  text-align: justify-all !important;
 }
 
 .algn-left {
-  text-align: left;
+  text-align: left !important;
 }
 
 .algn-right {
-  text-align: right;
+  text-align: right !important;
 }
 
 .algn-start {
-  text-align: start;
+  text-align: start !important;
 }
 
 /*# sourceMappingURL=text-align.css.map */

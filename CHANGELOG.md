@@ -1,3 +1,13 @@
+# [0.5.0](https://github.com/ionited/particle/compare/0.4.3...0.5.0) (2022-05-11)
+
+### Bug Fixes
+
+* increase container space ([dbe304e](https://github.com/ionited/particle/commit/dbe304ebb9ba860b49ddc90d4a4e5fed699af4a2))
+
+### Features
+
+* display, margin and padding responsive ([dd49bb6](https://github.com/ionited/particle/commit/dd49bb6567b3fc024f22ace4aefe1db5f820ee57))
+
 ## [0.4.3](https://github.com/ionited/particle/compare/0.4.2...0.4.3) (2022-03-30)
 
 ### Bug Fixes
