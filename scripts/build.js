@@ -1,8 +1,7 @@
 const
     path = require('path'),
     { spawnSync } = require('child_process'),
-    dir = process.cwd()
-;
+    dir = process.cwd();
 
 const outputs = [{
     input: 'src/particle.scss',
@@ -20,6 +19,9 @@ const outputs = [{
     input: 'src/utils/_display.scss',
     dest: 'dist/utils/display'
 }, {
+    input: 'src/utils/_display_responsive.scss',
+    dest: 'dist/utils/display-responsive'
+}, {
     input: 'src/utils/_flex.scss',
     dest: 'dist/utils/flex'
 }, {
@@ -29,8 +31,14 @@ const outputs = [{
     input: 'src/utils/_margin.scss',
     dest: 'dist/utils/margin'
 }, {
+    input: 'src/utils/_margin_responsive.scss',
+    dest: 'dist/utils/margin-responsive'
+}, {
     input: 'src/utils/_padding.scss',
     dest: 'dist/utils/padding'
+}, {
+    input: 'src/utils/_padding_responsive.scss',
+    dest: 'dist/utils/padding-responsive'
 }, {
     input: 'src/utils/_text_align.scss',
     dest: 'dist/utils/text-align'

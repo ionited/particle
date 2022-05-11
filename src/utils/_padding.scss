@@ -1,29 +1,7 @@
 @use '../mixins';
+@use '../variables';
 
-$utils: (
-    padding: (
-        alias: 'p',
-        values: 5
-    ),
-    padding-bottom: (
-        alias: 'pb',
-        values: 5
-    ),
-    padding-left: (
-        alias: 'pl',
-        values: 5
-    ),
-    padding-right: (
-        alias: 'pr',
-        values: 5
-    ),
-    padding-top: (
-        alias: 'pt',
-        values: 5
-    )
-);
-
-@each $property, $values in $utils {
+@each $property, $values in variables.$padding {
     $alias: map-get($values, alias);
     $values: map-get($values, values);
 

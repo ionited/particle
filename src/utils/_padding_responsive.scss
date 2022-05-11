@@ -1,0 +1,15 @@
+@use '../mixins';
+@use '../variables';
+
+@each $name, $breakpoint in variables.$breakpoints {
+    @if map-get($breakpoint, alias) {
+        @include mixins.media-query(map-get($breakpoint, min)) {
+            @each $property, $values in variables.$padding {
+                $alias: map-get($values, alias) + '-' + map-get($breakpoint, alias);
+                $values: map-get($values, values);
+            
+                @include mixins.util-generator($property, $alias, $values);
+            }
+        }
+    }
+}

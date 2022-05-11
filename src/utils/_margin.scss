@@ -1,29 +1,7 @@
 @use '../mixins';
+@use '../variables';
 
-$utils: (
-    margin: (
-        alias: 'm',
-        values: 5
-    ),
-    margin-bottom: (
-        alias: 'mb',
-        values: 5
-    ),
-    margin-left: (
-        alias: 'ml',
-        values: 5
-    ),
-    margin-right: (
-        alias: 'mr',
-        values: 5
-    ),
-    margin-top: (
-        alias: 'mt',
-        values: 5
-    )
-);
-
-@each $property, $values in $utils {
+@each $property, $values in variables.$margin {
     $alias: map-get($values, alias);
     $values: map-get($values, values);
 

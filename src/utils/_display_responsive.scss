@@ -1,0 +1,10 @@
+@use '../mixins';
+@use '../variables';
+
+@each $name, $breakpoint in variables.$breakpoints {
+    @if map-get($breakpoint, alias) {
+        @include mixins.media-query(map-get($breakpoint, min)) {
+            @include mixins.util-generator('display', 'd-' + map-get($breakpoint, alias), variables.$display);
+        }
+    }
+}

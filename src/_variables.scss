@@ -22,5 +22,70 @@ $breakpoints: (
 );
 $color: #73E8E4;
 $columns: 12;
+$display: (
+    block,
+    flex,
+    grid,
+    inline,
+    inline-block,
+    inline-flex, 
+    inline-grid,
+    inline-table,
+    list-item,
+    none,
+    run-in,
+    table,
+    table-cell,
+    table-column,
+    table-column-group,
+    table-footer-group,
+    table-header-group,
+    table-row,
+    table-row-group
+);
+$margin: (
+    margin: (
+        alias: 'm',
+        values: 5
+    ),
+    margin-bottom: (
+        alias: 'mb',
+        values: 5
+    ),
+    margin-left: (
+        alias: 'ml',
+        values: 5
+    ),
+    margin-right: (
+        alias: 'mr',
+        values: 5
+    ),
+    margin-top: (
+        alias: 'mt',
+        values: 5
+    )
+);
+$padding: (
+    padding: (
+        alias: 'p',
+        values: 5
+    ),
+    padding-bottom: (
+        alias: 'pb',
+        values: 5
+    ),
+    padding-left: (
+        alias: 'pl',
+        values: 5
+    ),
+    padding-right: (
+        alias: 'pr',
+        values: 5
+    ),
+    padding-top: (
+        alias: 'pt',
+        values: 5
+    )
+);
 $spacing: 0.5em;
 $borderRadius: 0.25em;

@@ -23,13 +23,13 @@
     @if type-of($values) == number {
         @for $i from 0 through $values {
             .#{$alias}-#{$i} {
-                #{$property}: variables.$spacing * $i;
+                #{$property}: variables.$spacing * $i !important;
             }
         }
     } @else {
         @each $v in $values {
             .#{$alias}-#{$v} {
-                #{$property}: $v;
+                #{$property}: $v !important;
             }
         }
     }
