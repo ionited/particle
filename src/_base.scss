@@ -121,6 +121,6 @@ table {
 @include mixins.media-query($containerBreakpoint) {
     .container {
         margin: auto;
-        width: $containerBreakpoint - $rootSpacing;
+        width: $containerBreakpoint - $rootSpacing * 2;
     }
 }
