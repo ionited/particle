@@ -4,8 +4,11 @@
 .grid {
     display: flex;
     flex-wrap: wrap;
+    margin: 0 variables.$spacing * -2;
+    padding: variables.$spacing;
 
     [class^='col'] {
+        padding: variables.$spacing;
         width: 100%;
     }
 }
