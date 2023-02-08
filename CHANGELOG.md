@@ -1,3 +1,9 @@
+# [0.6.0](https://github.com/ionited/particle/compare/0.5.0...0.6.0) (2023-02-08)
+
+### Features
+
+* grid and col padding ([ddd2766](https://github.com/ionited/particle/commit/ddd27668c141d4989b86c7b332ffa5c4d3d2d77d))
+
 # [0.5.0](https://github.com/ionited/particle/compare/0.4.3...0.5.0) (2022-05-11)
 
 ### Bug Fixes
