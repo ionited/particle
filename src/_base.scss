@@ -66,9 +66,10 @@ input {
 }
 
 button {
-    background-color: #DDDDDD;
+    background-color: #E0E0E0;
     border: 1px solid rgba(0, 0, 0, 0.12);
     border-radius: variables.$borderRadius;
+    cursor: pointer;
     font-size: 1em;
     height: variables.$spacing * 5;
     outline: none;
@@ -76,6 +77,14 @@ button {
     padding: 0 variables.$spacing * 4;
     text-overflow: ellipsis;
     white-space: nowrap;
+
+    &:disabled {
+        cursor: auto;
+
+        &, &:hover {
+            background-color: #F5F5F5;
+        }
+    }
 
     &:focus {
         box-shadow: 0 0 0 1px variables.$color;
