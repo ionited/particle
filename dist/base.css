@@ -52,9 +52,10 @@ input[type=file] {
 }
 
 button {
-  background-color: #DDDDDD;
+  background-color: #E0E0E0;
   border: 1px solid rgba(0, 0, 0, 0.12);
   border-radius: 0.25em;
+  cursor: pointer;
   font-size: 1em;
   height: 2.5em;
   outline: none;
@@ -62,6 +63,12 @@ button {
   padding: 0 2em;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+button:disabled {
+  cursor: auto;
+}
+button:disabled, button:disabled:hover {
+  background-color: #F5F5F5;
 }
 button:focus {
   box-shadow: 0 0 0 1px #73E8E4;

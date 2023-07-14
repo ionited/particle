@@ -1,3 +1,10 @@
+## [0.6.1](https://github.com/ionited/particle/compare/0.6.0...0.6.1) (2023-07-14)
+
+### Bug Fixes
+
+* improve button ux ([3557904](https://github.com/ionited/particle/commit/3557904367c0033cff7c328b9b8e84389c8fa648))
+* remove deprecated division symbol ([233b2b2](https://github.com/ionited/particle/commit/233b2b27c5389aa1d399c188dd99e8f1899c6e6b))
+
 # [0.6.0](https://github.com/ionited/particle/compare/0.5.0...0.6.0) (2023-02-08)
 
 ### Features
