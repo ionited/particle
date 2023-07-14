@@ -1,3 +1,4 @@
+@use 'sass:math';
 @use 'mixins';
 @use 'variables';
 
@@ -16,7 +17,7 @@
 @each $name, $breakpoint in variables.$breakpoints {
     @include mixins.media-query(map-get($breakpoint, min)) {
         @for $i from 0 through variables.$columns {
-            $width: 100% / variables.$columns * if($i == 0, variables.$columns, $i);
+            $width: math.div(100%, variables.$columns) * if($i == 0, variables.$columns, $i);
 
             @include mixins.selector(col, map-get($breakpoint, alias), $i, false) {
                 flex: if($i == 0, 1, $width);
