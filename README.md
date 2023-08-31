@@ -59,4 +59,6 @@ Or import only your needed modules.
 
 ## License
 
-Copyright (c) 2020 Ion. Licensed under [Mit License](LICENSE).
+Copyright (c) 2020 Ion. Licensed under [MIT License](LICENSE).
+
+[https://ionited.io](https://ionited.io)
