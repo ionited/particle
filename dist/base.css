@@ -21,22 +21,22 @@ a:visited {
 }
 
 dl, ol, ul {
-  padding: 0 1.5em;
-  margin: 0.5em 0;
+  padding: 0 1.5rem;
+  margin: 0.5rem 0;
 }
 
 dl dd {
-  margin: 0 0 0 1em;
+  margin: 0 0 0 1rem;
 }
 
 input, select, textarea {
   background-color: #FFFFFF;
   border: 1px solid rgba(0, 0, 0, 0.12);
-  border-radius: 0.25em;
+  border-radius: 0.25rem;
   font-size: 1em;
   max-width: 100%;
   outline: none;
-  padding: 0 1em;
+  padding: 0 1rem;
   width: 100%;
 }
 input:focus, select:focus, textarea:focus {
@@ -44,23 +44,23 @@ input:focus, select:focus, textarea:focus {
 }
 
 input, select {
-  height: 2.5em;
+  height: 2.5rem;
 }
 
 input[type=file] {
-  padding: 0.42em 1em;
+  padding: 0.42em 1rem;
 }
 
 button {
   background-color: #E0E0E0;
   border: 1px solid rgba(0, 0, 0, 0.12);
-  border-radius: 0.25em;
+  border-radius: 0.25rem;
   cursor: pointer;
   font-size: 1em;
-  height: 2.5em;
+  height: 2.5rem;
   outline: none;
   overflow: hidden;
-  padding: 0 2em;
+  padding: 0 2rem;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
@@ -89,7 +89,7 @@ table tbody tr:last-child {
   border-bottom: none;
 }
 table td, table th {
-  padding: 0.5em;
+  padding: 0.5rem;
 }
 table thead {
   border-bottom: 2px solid rgba(0, 0, 0, 0.12);
@@ -100,7 +100,7 @@ table thead {
 }
 
 .container {
-  padding: 0.5em;
+  padding: 0.5rem;
 }
 
 @media (min-width: 1024px) {

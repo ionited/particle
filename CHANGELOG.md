@@ -1,3 +1,10 @@
+## [0.6.2](https://github.com/ionited/particle/compare/0.6.1...0.6.2) (2023-10-17)
+
+### Bug Fixes
+
+* use gap instead of margin and padding ([891c424](https://github.com/ionited/particle/commit/891c4249c4c7b831f2b62fb50df579bb92c4584f))
+* use rem ([aa8922a](https://github.com/ionited/particle/commit/aa8922a8e3c199f69d0bd6eb31e09993687459c3))
+
 ## [0.6.1](https://github.com/ionited/particle/compare/0.6.0...0.6.1) (2023-07-14)
 
 ### Bug Fixes

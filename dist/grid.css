@@ -1,11 +1,10 @@
 .grid {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -1em;
-  padding: 0.5em;
+  gap: 1rem;
+  padding: 0.5rem;
 }
-.grid [class^=col] {
-  padding: 0.5em;
+.grid > * {
   width: 100%;
 }
 
