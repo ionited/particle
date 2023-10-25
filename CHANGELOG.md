@@ -1,3 +1,9 @@
+## [0.6.3](https://github.com/ionited/particle/compare/0.6.2...0.6.3) (2023-10-25)
+
+### Bug Fixes
+
+* use padding again ([bffc4ba](https://github.com/ionited/particle/commit/bffc4ba5ff133531c74d8642d543cf2434953e46))
+
 ## [0.6.2](https://github.com/ionited/particle/compare/0.6.1...0.6.2) (2023-10-17)
 
 ### Bug Fixes

@@ -112,10 +112,10 @@ table thead {
 .grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
   padding: 0.5rem;
 }
 .grid > * {
+  padding: 0.5rem;
   width: 100%;
 }
 
